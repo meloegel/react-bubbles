@@ -48,6 +48,35 @@ body,
     }
   }
 }
+nav{
+  margin: 1rem auto;
+  font-family:"Montserrat", sans-serif;
+  text-align:center;
+  a{
+    text-decoration: none;
+    padding: 1rem;
+    font-size:1.4rem;
+  }
+}
+.login{
+  margin: 1rem auto;
+  input{
+    padding: .4rem;
+  }
+  button{
+    font-size: 1rem;
+    margin:1rem auto;
+    border-radius: .4rem;
+    padding:.4rem;
+    color:white;
+    background-color:gray;
+    &:hover{
+      color:green;
+      background-color: lightblue;
+      border: 2px solid green;
+    }
+  }
+}
 
 .delete {
   color: rgb(216, 87, 87);
@@ -61,7 +90,6 @@ body,
 }
 
 form {
-  margin-top: 60px;
   display: flex;
   flex-direction: column;
 
@@ -82,7 +110,25 @@ form {
   input {
     width: 100px;
   }
+  .addInput{
+    margin: .5rem auto;
+  }
+  #addColorBtn{
+    width:45%;
+    font-size: 1.2rem;
+    margin:0 auto;
+    border-radius: 1rem;
+    padding:.5rem;
+    color:white;
+    background-color: black;
+    &:hover{
+      color:green;
+      background-color: lightblue;
+      border: 2px solid green;
+    }
+  }
 }
+
 
 .button-row {
   display: flex;
